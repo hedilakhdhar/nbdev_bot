@@ -2,9 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "00_core.ipynb"}
+index = {"say_hello": "01_market-maker.ipynb"}
 
-modules = ["core.py"]
+modules = ["interface/deribit_interface.py",
+           "market-maker.py"]
 
 doc_url = "https://hedilakhdhar.github.io/nbdev_bot/"
 
