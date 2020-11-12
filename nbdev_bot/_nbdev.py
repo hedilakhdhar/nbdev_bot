@@ -2,7 +2,18 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "01_market-maker.ipynb"}
+index = {"thread_decor": "00_deribit_interface.ipynb",
+         "Deribit": "00_deribit_interface.ipynb",
+         "AMOUNT_TO_TRADE": "01_market-maker.ipynb",
+         "INSTRUMENT_NAME": "01_market-maker.ipynb",
+         "CLIENT_ID": "01_market-maker.ipynb",
+         "CLIENT_SECRET": "01_market-maker.ipynb",
+         "deribit": "01_market-maker.ipynb",
+         "logwritter": "01_market-maker.ipynb",
+         "first_trade": "01_market-maker.ipynb",
+         "step_in_algo": "01_market-maker.ipynb",
+         "First_setuper": "01_market-maker.ipynb",
+         "Order_manager": "01_market-maker.ipynb"}
 
 modules = ["interface/deribit_interface.py",
            "market-maker.py"]
